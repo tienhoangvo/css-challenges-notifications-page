@@ -1,5 +1,5 @@
 import type Notification from "../../types/Notification"
-import NotificationListItem from "../NotificationListItem/NotificationListItem"
+import NotificationListItem from "../NotificationListItem"
 import styles from './Notifications.module.scss'
 type NotificationProps = {
   notifications: Notification[]

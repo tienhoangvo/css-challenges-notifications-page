@@ -1,4 +1,4 @@
-import Notifications from "../components/Notifications/Notifications"
+import Notifications from "../components/Notifications"
 import notifications from "../data/notifications"
 
 const IndexPage = () => {
