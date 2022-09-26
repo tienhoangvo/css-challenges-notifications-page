@@ -6,17 +6,23 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "update-types": "npx openapi-typescript \"https://hrdnnmwyemzqeisliokr.supabase.co/rest/v1/?apikey=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhyZG5ubXd5ZW16cWVpc2xpb2tyIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NjI2MjA2NjksImV4cCI6MTk3ODE5NjY2OX0.121QDCFmWjQR4dCxQBMha8UlhVwsWeCMqMKLVGkJcl4\" --version=2 --output types/database/index.ts"
   },
   "dependencies": {
+    "nanoid": "^4.0.0",
     "next": "12.2.5",
+    "phosphor-react": "^1.4.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sass": "^1.55.0",
+    "typescript-plugin-css-modules": "^3.4.0"
   },
   "devDependencies": {
     "@types/node": "18.7.16",
     "@types/react": "18.0.18",
     "@types/react-dom": "18.0.6",
+    "autoprefixer": "^10.4.8",
     "eslint": "8.23.0",
     "eslint-config-next": "12.2.5",
     "typescript": "4.8.2"

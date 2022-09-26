@@ -1,0 +1,59 @@
+.notificationListItem {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  .avatar {
+    height: 36px;
+    aspect-ratio: 1/1;
+  }
+  &.unread {
+    background-color: var(--gray-0);
+  }
+
+  &:hover {
+    background-color: var(--blue-0);
+  }
+
+  color: var(--gray-7);
+
+
+  .content {
+    .postTitle {
+      color: var(--gray-6)
+    }
+
+    .groupName {
+      color: var(--blue-9)
+    }
+
+    time {
+      color: var(--gray-6)
+    }
+
+    .messageText {
+      border: 1px solid var(--gray-1);
+      padding: 12px;
+      border-radius: 4px;
+    }
+
+    .unreadNotification {
+      background-color: var(--red-6);
+      height: 8px;
+      aspect-ratio: 1/1;
+      display: inline-block;
+      border-radius: 8px;
+      margin-left: 4px;
+    }
+
+    
+  }
+
+  .picture {
+    height: 36px;
+    aspect-ratio: 1/1;
+  }
+}
